@@ -1,0 +1,68 @@
+h2 {
+    font-size: 40px;
+    color: red;
+}
+
+.textoverde {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.textoverde:hover {
+    background-color:aquamarine;
+    color: brown;
+}
+
+.claseContenedorDiv1 {
+    font-size: 20px;
+    width: 50 px;
+    height: 50 px;
+    background-color: aquamarine;
+}
+
+.claseContenedorDiv1::first-letter {
+    font-size: 50px;
+    color: brown;
+}
+
+.clase_Static {
+    background-color: azure;
+    position: static;
+    margin-top: 20px;
+    margin-left: 475px;
+    margin-right: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    color: skyblue;
+}
+
+.clase_Relative {
+    font-size: 20px;
+    background-color: greenyellow;
+    height: 120px;
+    width: 200px;
+}
+
+.clase_Relative:hover {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.clase_Fixed {
+    height: 320px;
+    width: 300px;
+    position: fixed;
+    left: 600px;
+    bottom: 300px;
+    z-index: -10;
+}
+
+.marca_agua {
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 10;
+}
